@@ -15,9 +15,13 @@ fizzbuzz = function(i) {
   }
   return fizz(i) + buzz(i)
 }
-var i = 1
 
-while (i < 100){
-  fizzbuzz(i);
-  i++;
+var run = function(){
+  var i = 1
+
+  while (i <= 100) {
+    console.log(fizzbuzz(i));
+    i++;
+  }  
 }
+return run;
