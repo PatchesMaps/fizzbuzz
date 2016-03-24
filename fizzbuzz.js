@@ -20,7 +20,7 @@ var run = function(){
   var i = 1
 
   while (i <= 100) {
-    console.log(fizzbuzz(i));
+    console.log(i.toString + " = " + fizzbuzz(i));
     i++;
   }  
 }
